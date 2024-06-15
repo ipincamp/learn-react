@@ -1,9 +1,9 @@
 import React from "react";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
-      <div>Welcome to the React Practice Module</div>
+      <h1>{props.title}</h1>
     </header>
   );
 };
