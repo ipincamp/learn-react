@@ -1,10 +1,10 @@
 import React from "react";
 
-const FunctionalComponent = () => {
+const FunctionalComponent = (props) => {
   return (
     <div>
       <h2>Ini adalah Functional Component</h2>
-      <p>Functional Component itu simple dan mudah digunakan.</p>
+      <p>{props.message}</p>
     </div>
   );
 };
