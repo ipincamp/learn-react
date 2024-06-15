@@ -5,10 +5,7 @@ class ClassComponent extends Component {
     return (
       <div>
         <h2>Ini adalah Class Component</h2>
-        <p>
-          Class Component lebih powerful dari pada Functional Component.
-          Dapat memiliki metode dan siklus hidupnya sendiri.
-        </p>
+        <p>{this.props.info}</p>
       </div>
     );
   }
