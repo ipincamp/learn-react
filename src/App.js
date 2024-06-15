@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MainContent message="Hello World dari App Component!" />
+      <MainContent message="Hello World dari App Component!" info="Informasi dari App Component!" />
       <Footer />
     </div>
   );
