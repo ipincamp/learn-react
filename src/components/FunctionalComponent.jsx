@@ -18,8 +18,14 @@ const FunctionalComponent = (props) => {
     setCount(count - inputValue);
   };
 
+  const containerStyle = {
+    backgroundColor: count >= 10 ? "lightgreen" : "white",
+    padding: "20px",
+    borderRadius: "5px",
+  };
+
   return (
-    <div>
+    <div style={containerStyle}>
       <h2>Ini adalah Functional Component</h2>
       <p>{props.message}</p>
 
