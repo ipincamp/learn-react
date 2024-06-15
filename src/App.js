@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header title="Welcome to the React Practice Module" />
       <MainContent message="Hello World dari App Component!" info="Informasi dari App Component!" />
-      <Footer />
+      <Footer copyright="&copy; 2024 React Practice Module. All rights reserved." />
     </div>
   );
 }
