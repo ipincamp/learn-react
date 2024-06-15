@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header title="Welcome to the React Practice Module" />
       <MainContent message="Hello World dari App Component!" info="Informasi dari App Component!" />
       <Footer />
     </div>
